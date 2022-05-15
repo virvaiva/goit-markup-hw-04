@@ -21,9 +21,7 @@ ul {
 /* main-nav */
 .main-nav {
     display: flex;
-    align-items: center;
-
-    
+    align-items: center;    
 }
 
 .container {
@@ -33,19 +31,24 @@ ul {
     margin-right: auto;
     margin-left: auto;
 }
+
 .container ul {
     padding: 0;
 }
+
 .page-header {
     border-bottom: 1px solid #ECECEC;
 }
+
+
 /* logo */
+
 .nav {
     display: flex;
     align-items: center;
 }
+
 .logo {
-    
     color: var(--accent-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -58,9 +61,13 @@ ul {
 
 .nav-logo {
     color: #000000;
-    }
+}
+
+
 
 /* nav-list contact-list*/
+
+
 .nav-list {
     display: flex;
 
@@ -101,6 +108,8 @@ ul {
     color: var(--accent-color);
 }
 
+
+/* Contacts */
 .contact-list {
     display: flex;
     margin-left: auto;
@@ -142,6 +151,8 @@ ul {
     margin-right: 10px;
     fill: currentColor;
 }
+
+/* Hero */
 .hero {
     
     max-height: 600px;
@@ -374,7 +385,10 @@ ul {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+
 /* clients */
+
 .client {
     padding-top: 94px;
     padding-bottom: 94px;
