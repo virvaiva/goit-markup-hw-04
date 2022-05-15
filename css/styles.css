@@ -500,7 +500,7 @@ ul {
     margin-bottom: 20px;
 }
 
-.container.div-footer {
+.div-footer {
     display: flex;
     
  }
@@ -534,6 +534,10 @@ ul {
 
 .contact {
     margin-right: 70px;
+}
+
+.join {
+    align-items: baseline;
 }
 
 .join-title {
