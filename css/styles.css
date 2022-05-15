@@ -134,12 +134,13 @@ ul {
 
 .mail-icon {
     margin-right: 10px;
-    fill: #757575;
+    fill: currentColor;
+
 }
 
 .phone-icon {
     margin-right: 10px;
-    fill: #757575;
+    fill: currentColor;
 }
 .hero {
     background-color: #2F303A;
@@ -367,6 +368,53 @@ ul {
     margin-top: 0;
     margin-bottom: 0;
 }
+/* clients */
+.client {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    text-align: center;
+
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.clients-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+}
+
+.client-icons {
+    fill: #AFB1B8;
+}
+
+.client-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.client-icons:hover,
+.client-icons:focus {
+    fill: #2196F3;
+}
+
 /* social icons */
 
 .socials {
@@ -432,12 +480,10 @@ ul {
     margin-bottom: 20px;
 }
 
-.div-footer {
+.container.div-footer {
     display: flex;
-    align-items: baseline;
-}
-
-
+    
+ }
 
 .footer-link {
     color: rgba(255, 255, 255, 0.6);
@@ -465,17 +511,12 @@ ul {
     padding-bottom: 60px;
 }
 
-.join {
-    display: block;
 
+.contact {
+    margin-right: 70px;
 }
-.container.join {
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: start;
-}
+
 .join-title {
-    display: block;
     margin-top: 0;
     margin-bottom: 20px;
 
@@ -484,13 +525,12 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
+        
     color: #FFFFFF;
 }
 
 .join-list {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
 .join-link {
@@ -565,6 +605,12 @@ ul {
     
 }
 
+.filtr-list .item:hover,
+.filtr-list .item:focus
+ {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 
 .portfolio {
     border-right: 1px solid #E5E5E5;
@@ -610,6 +656,7 @@ ul {
     margin-bottom: 0;
 }
 
+
 .filtr-text {
     margin: 0;
     color: var(--primary-text-color);
@@ -620,4 +667,5 @@ ul {
     
     
 }
+
 
