@@ -389,7 +389,7 @@ ul {
 
 /* clients */
 
-.client {
+.clients {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -417,23 +417,30 @@ ul {
     width: 170px;
     height: 92px;
 
+    color: #AFB1B8;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    
+}
+
+.clients-link:hover,
+.clients-link:focus
+ {
+    color: #2196F3;
+    border: 1px solid #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 
 .client-icons {
-    fill: #AFB1B8;
+    fill: currentColor;
 }
 
 .client-item:not(:last-child) {
     margin-right: 30px;
 }
 
-.client-icons:hover,
-.client-icons:focus {
-    fill: #2196F3;
-}
+
 
 /* social icons */
 
@@ -502,6 +509,7 @@ ul {
 
 .div-footer {
     display: flex;
+    align-items: baseline;
     
  }
 
@@ -536,9 +544,7 @@ ul {
     margin-right: 70px;
 }
 
-.join {
-    align-items: baseline;
-}
+
 
 .join-title {
     margin-top: 0;
@@ -626,11 +632,12 @@ ul {
  
 .filtr-link {
     text-decoration: none;
+    display: block;
     
 }
 
-.filtr-list .item:hover,
-.filtr-list .item:focus
+.filtr-link:hover,
+.filtr-link:focus
  {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
